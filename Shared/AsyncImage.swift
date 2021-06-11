@@ -6,13 +6,16 @@ import SwiftUI
 
 struct AsyncImageExample: View {
     var body: some View {
-        AsyncImage(url: URL(string: "https://www.hackingwithswift.com/img/paul.png")) { image in
-            image.resizable()
-        } placeholder: {
-            ProgressView()
+        VStack {
+            AsyncImage(url: URL(string: "https://www.hackingwithswift.com/img/paul.png")) { image in
+                image.resizable()
+            } placeholder: {
+                ProgressView()
+            }
+            .frame(width: 128, height: 128)
+            .clipShape(RoundedRectangle(cornerRadius: 25))
+            Text("Hello world")
         }
-        .frame(width: 128, height: 128)
-        .clipShape(RoundedRectangle(cornerRadius: 25))
     }
 }
 
