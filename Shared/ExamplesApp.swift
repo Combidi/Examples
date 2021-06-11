@@ -1,7 +1,4 @@
 //
-//  ExamplesApp.swift
-//  Shared
-//
 //  Created by Peter Combee on 11/06/2021.
 //
 

@@ -19,6 +19,8 @@
 		A6E94CA3267352C100A1A2C2 /* Searchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E94CA1267352C100A1A2C2 /* Searchable.swift */; };
 		A6E94CA82673551000A1A2C2 /* SwipeActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E94CA72673551000A1A2C2 /* SwipeActions.swift */; };
 		A6E94CA92673551000A1A2C2 /* SwipeActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E94CA72673551000A1A2C2 /* SwipeActions.swift */; };
+		A6E94CAB2673592300A1A2C2 /* BackgroundMaterial.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E94CAA2673592300A1A2C2 /* BackgroundMaterial.swift */; };
+		A6E94CAC2673592300A1A2C2 /* BackgroundMaterial.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E94CAA2673592300A1A2C2 /* BackgroundMaterial.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,7 @@
 		A6E94C9E26734BBD00A1A2C2 /* PullToRefreshWithAsyncAwait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullToRefreshWithAsyncAwait.swift; sourceTree = "<group>"; };
 		A6E94CA1267352C100A1A2C2 /* Searchable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Searchable.swift; sourceTree = "<group>"; };
 		A6E94CA72673551000A1A2C2 /* SwipeActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActions.swift; sourceTree = "<group>"; };
+		A6E94CAA2673592300A1A2C2 /* BackgroundMaterial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundMaterial.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,12 +64,13 @@
 		A6E94C8126734B7900A1A2C2 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				A6E94C8226734B7900A1A2C2 /* ExamplesApp.swift */,
-				A6E94C8326734B7900A1A2C2 /* ContentView.swift */,
 				A6E94C8426734B7D00A1A2C2 /* Assets.xcassets */,
+				A6E94C8326734B7900A1A2C2 /* ContentView.swift */,
+				A6E94C8226734B7900A1A2C2 /* ExamplesApp.swift */,
 				A6E94C9E26734BBD00A1A2C2 /* PullToRefreshWithAsyncAwait.swift */,
 				A6E94CA1267352C100A1A2C2 /* Searchable.swift */,
 				A6E94CA72673551000A1A2C2 /* SwipeActions.swift */,
+				A6E94CAA2673592300A1A2C2 /* BackgroundMaterial.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -182,6 +186,7 @@
 				A6E94CA82673551000A1A2C2 /* SwipeActions.swift in Sources */,
 				A6E94CA2267352C100A1A2C2 /* Searchable.swift in Sources */,
 				A6E94C9F26734BBD00A1A2C2 /* PullToRefreshWithAsyncAwait.swift in Sources */,
+				A6E94CAB2673592300A1A2C2 /* BackgroundMaterial.swift in Sources */,
 				A6E94C9026734B7D00A1A2C2 /* ExamplesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -194,6 +199,7 @@
 				A6E94CA92673551000A1A2C2 /* SwipeActions.swift in Sources */,
 				A6E94CA3267352C100A1A2C2 /* Searchable.swift in Sources */,
 				A6E94CA026734BBD00A1A2C2 /* PullToRefreshWithAsyncAwait.swift in Sources */,
+				A6E94CAC2673592300A1A2C2 /* BackgroundMaterial.swift in Sources */,
 				A6E94C9126734B7D00A1A2C2 /* ExamplesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
