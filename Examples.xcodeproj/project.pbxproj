@@ -33,6 +33,8 @@
 		A6E94CBB2673637900A1A2C2 /* InteractiveDismissDisabled.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E94CB92673637900A1A2C2 /* InteractiveDismissDisabled.swift */; };
 		A6E94CBD267365F100A1A2C2 /* MarkdownText.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E94CBC267365F100A1A2C2 /* MarkdownText.swift */; };
 		A6E94CBE267365F100A1A2C2 /* MarkdownText.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E94CBC267365F100A1A2C2 /* MarkdownText.swift */; };
+		A6E94CC02673697500A1A2C2 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E94CBF2673697500A1A2C2 /* Alert.swift */; };
+		A6E94CC12673697500A1A2C2 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E94CBF2673697500A1A2C2 /* Alert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +53,7 @@
 		A6E94CB6267362C300A1A2C2 /* ListBadges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListBadges.swift; sourceTree = "<group>"; };
 		A6E94CB92673637900A1A2C2 /* InteractiveDismissDisabled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveDismissDisabled.swift; sourceTree = "<group>"; };
 		A6E94CBC267365F100A1A2C2 /* MarkdownText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownText.swift; sourceTree = "<group>"; };
+		A6E94CBF2673697500A1A2C2 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +98,7 @@
 				A6E94CB6267362C300A1A2C2 /* ListBadges.swift */,
 				A6E94CB92673637900A1A2C2 /* InteractiveDismissDisabled.swift */,
 				A6E94CBC267365F100A1A2C2 /* MarkdownText.swift */,
+				A6E94CBF2673697500A1A2C2 /* Alert.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -211,6 +215,7 @@
 				A6E94CB7267362C300A1A2C2 /* ListBadges.swift in Sources */,
 				A6E94C9226734B7D00A1A2C2 /* ContentView.swift in Sources */,
 				A6E94CB126735F9B00A1A2C2 /* FocusStateExample.swift in Sources */,
+				A6E94CC02673697500A1A2C2 /* Alert.swift in Sources */,
 				A6E94CA82673551000A1A2C2 /* SwipeActions.swift in Sources */,
 				A6E94CA2267352C100A1A2C2 /* Searchable.swift in Sources */,
 				A6E94C9F26734BBD00A1A2C2 /* PullToRefreshWithAsyncAwait.swift in Sources */,
@@ -230,6 +235,7 @@
 				A6E94CB8267362C300A1A2C2 /* ListBadges.swift in Sources */,
 				A6E94C9326734B7D00A1A2C2 /* ContentView.swift in Sources */,
 				A6E94CB226735F9B00A1A2C2 /* FocusStateExample.swift in Sources */,
+				A6E94CC12673697500A1A2C2 /* Alert.swift in Sources */,
 				A6E94CA92673551000A1A2C2 /* SwipeActions.swift in Sources */,
 				A6E94CA3267352C100A1A2C2 /* Searchable.swift in Sources */,
 				A6E94CA026734BBD00A1A2C2 /* PullToRefreshWithAsyncAwait.swift in Sources */,
