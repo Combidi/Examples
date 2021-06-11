@@ -25,6 +25,7 @@ struct PullToRefreshWithAsyncAwait: View {
                     Text(item.strap)
                         .foregroundColor(.secondary)
                 }
+                .id(item.id)
             }
             .refreshable {
                 do {
