@@ -41,6 +41,8 @@
 		A6E94CC726736C5C00A1A2C2 /* OnSubmit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E94CC526736C5C00A1A2C2 /* OnSubmit.swift */; };
 		A6E94CC926736D1D00A1A2C2 /* MenuPrimaryAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E94CC826736D1D00A1A2C2 /* MenuPrimaryAction.swift */; };
 		A6E94CCA26736D1D00A1A2C2 /* MenuPrimaryAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E94CC826736D1D00A1A2C2 /* MenuPrimaryAction.swift */; };
+		A6E94CCC26736F5900A1A2C2 /* ForegroundStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E94CCB26736F5900A1A2C2 /* ForegroundStyle.swift */; };
+		A6E94CCD26736F5900A1A2C2 /* ForegroundStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E94CCB26736F5900A1A2C2 /* ForegroundStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +65,7 @@
 		A6E94CC226736AED00A1A2C2 /* ConfirmationDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationDialog.swift; sourceTree = "<group>"; };
 		A6E94CC526736C5C00A1A2C2 /* OnSubmit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnSubmit.swift; sourceTree = "<group>"; };
 		A6E94CC826736D1D00A1A2C2 /* MenuPrimaryAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPrimaryAction.swift; sourceTree = "<group>"; };
+		A6E94CCB26736F5900A1A2C2 /* ForegroundStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForegroundStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,7 @@
 				A6E94CC226736AED00A1A2C2 /* ConfirmationDialog.swift */,
 				A6E94CC526736C5C00A1A2C2 /* OnSubmit.swift */,
 				A6E94CC826736D1D00A1A2C2 /* MenuPrimaryAction.swift */,
+				A6E94CCB26736F5900A1A2C2 /* ForegroundStyle.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -234,6 +238,7 @@
 				A6E94CA2267352C100A1A2C2 /* Searchable.swift in Sources */,
 				A6E94CC926736D1D00A1A2C2 /* MenuPrimaryAction.swift in Sources */,
 				A6E94C9F26734BBD00A1A2C2 /* PullToRefreshWithAsyncAwait.swift in Sources */,
+				A6E94CCC26736F5900A1A2C2 /* ForegroundStyle.swift in Sources */,
 				A6E94CB42673623200A1A2C2 /* TabViewBadges.swift in Sources */,
 				A6E94CBD267365F100A1A2C2 /* MarkdownText.swift in Sources */,
 				A6E94CAB2673592300A1A2C2 /* BackgroundMaterial.swift in Sources */,
@@ -257,6 +262,7 @@
 				A6E94CA3267352C100A1A2C2 /* Searchable.swift in Sources */,
 				A6E94CCA26736D1D00A1A2C2 /* MenuPrimaryAction.swift in Sources */,
 				A6E94CA026734BBD00A1A2C2 /* PullToRefreshWithAsyncAwait.swift in Sources */,
+				A6E94CCD26736F5900A1A2C2 /* ForegroundStyle.swift in Sources */,
 				A6E94CB52673623200A1A2C2 /* TabViewBadges.swift in Sources */,
 				A6E94CBE267365F100A1A2C2 /* MarkdownText.swift in Sources */,
 				A6E94CAC2673592300A1A2C2 /* BackgroundMaterial.swift in Sources */,
