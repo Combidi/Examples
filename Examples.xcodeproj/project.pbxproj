@@ -25,6 +25,12 @@
 		A6E94CAF26735AD100A1A2C2 /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E94CAD26735AD100A1A2C2 /* AsyncImage.swift */; };
 		A6E94CB126735F9B00A1A2C2 /* FocusStateExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E94CB026735F9B00A1A2C2 /* FocusStateExample.swift */; };
 		A6E94CB226735F9B00A1A2C2 /* FocusStateExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E94CB026735F9B00A1A2C2 /* FocusStateExample.swift */; };
+		A6E94CB42673623200A1A2C2 /* TabViewBadges.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E94CB32673623200A1A2C2 /* TabViewBadges.swift */; };
+		A6E94CB52673623200A1A2C2 /* TabViewBadges.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E94CB32673623200A1A2C2 /* TabViewBadges.swift */; };
+		A6E94CB7267362C300A1A2C2 /* ListBadges.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E94CB6267362C300A1A2C2 /* ListBadges.swift */; };
+		A6E94CB8267362C300A1A2C2 /* ListBadges.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E94CB6267362C300A1A2C2 /* ListBadges.swift */; };
+		A6E94CBA2673637900A1A2C2 /* InteractiveDismissDisabled.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E94CB92673637900A1A2C2 /* InteractiveDismissDisabled.swift */; };
+		A6E94CBB2673637900A1A2C2 /* InteractiveDismissDisabled.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E94CB92673637900A1A2C2 /* InteractiveDismissDisabled.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +45,9 @@
 		A6E94CAA2673592300A1A2C2 /* BackgroundMaterial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundMaterial.swift; sourceTree = "<group>"; };
 		A6E94CAD26735AD100A1A2C2 /* AsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
 		A6E94CB026735F9B00A1A2C2 /* FocusStateExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusStateExample.swift; sourceTree = "<group>"; };
+		A6E94CB32673623200A1A2C2 /* TabViewBadges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewBadges.swift; sourceTree = "<group>"; };
+		A6E94CB6267362C300A1A2C2 /* ListBadges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListBadges.swift; sourceTree = "<group>"; };
+		A6E94CB92673637900A1A2C2 /* InteractiveDismissDisabled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveDismissDisabled.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +88,9 @@
 				A6E94CAA2673592300A1A2C2 /* BackgroundMaterial.swift */,
 				A6E94CAD26735AD100A1A2C2 /* AsyncImage.swift */,
 				A6E94CB026735F9B00A1A2C2 /* FocusStateExample.swift */,
+				A6E94CB32673623200A1A2C2 /* TabViewBadges.swift */,
+				A6E94CB6267362C300A1A2C2 /* ListBadges.swift */,
+				A6E94CB92673637900A1A2C2 /* InteractiveDismissDisabled.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -191,11 +203,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6E94CAE26735AD100A1A2C2 /* AsyncImage.swift in Sources */,
+				A6E94CBA2673637900A1A2C2 /* InteractiveDismissDisabled.swift in Sources */,
+				A6E94CB7267362C300A1A2C2 /* ListBadges.swift in Sources */,
 				A6E94C9226734B7D00A1A2C2 /* ContentView.swift in Sources */,
 				A6E94CB126735F9B00A1A2C2 /* FocusStateExample.swift in Sources */,
 				A6E94CA82673551000A1A2C2 /* SwipeActions.swift in Sources */,
 				A6E94CA2267352C100A1A2C2 /* Searchable.swift in Sources */,
 				A6E94C9F26734BBD00A1A2C2 /* PullToRefreshWithAsyncAwait.swift in Sources */,
+				A6E94CB42673623200A1A2C2 /* TabViewBadges.swift in Sources */,
 				A6E94CAB2673592300A1A2C2 /* BackgroundMaterial.swift in Sources */,
 				A6E94C9026734B7D00A1A2C2 /* ExamplesApp.swift in Sources */,
 			);
@@ -206,11 +221,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6E94CAF26735AD100A1A2C2 /* AsyncImage.swift in Sources */,
+				A6E94CBB2673637900A1A2C2 /* InteractiveDismissDisabled.swift in Sources */,
+				A6E94CB8267362C300A1A2C2 /* ListBadges.swift in Sources */,
 				A6E94C9326734B7D00A1A2C2 /* ContentView.swift in Sources */,
 				A6E94CB226735F9B00A1A2C2 /* FocusStateExample.swift in Sources */,
 				A6E94CA92673551000A1A2C2 /* SwipeActions.swift in Sources */,
 				A6E94CA3267352C100A1A2C2 /* Searchable.swift in Sources */,
 				A6E94CA026734BBD00A1A2C2 /* PullToRefreshWithAsyncAwait.swift in Sources */,
+				A6E94CB52673623200A1A2C2 /* TabViewBadges.swift in Sources */,
 				A6E94CAC2673592300A1A2C2 /* BackgroundMaterial.swift in Sources */,
 				A6E94C9126734B7D00A1A2C2 /* ExamplesApp.swift in Sources */,
 			);
