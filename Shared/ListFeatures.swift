@@ -27,6 +27,6 @@ struct ListFeatures: View {
 
 struct ListFeatures_Previews: PreviewProvider {
     static var previews: some View {
-        ListExample()
+        ListFeatures()
     }
 }
