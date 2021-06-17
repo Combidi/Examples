@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A6CFAB6C267B2DC900DCEA11 /* PreferenceKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CFAB6B267B2DC900DCEA11 /* PreferenceKeys.swift */; };
+		A6CFAB6D267B2DC900DCEA11 /* PreferenceKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CFAB6B267B2DC900DCEA11 /* PreferenceKeys.swift */; };
 		A6E94C9026734B7D00A1A2C2 /* ExamplesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E94C8226734B7900A1A2C2 /* ExamplesApp.swift */; };
 		A6E94C9126734B7D00A1A2C2 /* ExamplesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E94C8226734B7900A1A2C2 /* ExamplesApp.swift */; };
 		A6E94C9226734B7D00A1A2C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E94C8326734B7900A1A2C2 /* ContentView.swift */; };
@@ -48,6 +50,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A6CFAB6B267B2DC900DCEA11 /* PreferenceKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeys.swift; sourceTree = "<group>"; };
 		A6E94C8226734B7900A1A2C2 /* ExamplesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamplesApp.swift; sourceTree = "<group>"; };
 		A6E94C8326734B7900A1A2C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A6E94C8426734B7D00A1A2C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -119,6 +122,7 @@
 				A6E94CC826736D1D00A1A2C2 /* MenuPrimaryAction.swift */,
 				A6E94CCB26736F5900A1A2C2 /* ForegroundStyle.swift */,
 				A6E94CCE2673705600A1A2C2 /* ListFeatures.swift */,
+				A6CFAB6B267B2DC900DCEA11 /* PreferenceKeys.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -235,6 +239,7 @@
 				A6E94CC626736C5C00A1A2C2 /* OnSubmit.swift in Sources */,
 				A6E94CB7267362C300A1A2C2 /* ListBadges.swift in Sources */,
 				A6E94C9226734B7D00A1A2C2 /* ContentView.swift in Sources */,
+				A6CFAB6C267B2DC900DCEA11 /* PreferenceKeys.swift in Sources */,
 				A6E94CB126735F9B00A1A2C2 /* FocusStateExample.swift in Sources */,
 				A6E94CC02673697500A1A2C2 /* Alert.swift in Sources */,
 				A6E94CC326736AED00A1A2C2 /* ConfirmationDialog.swift in Sources */,
@@ -260,6 +265,7 @@
 				A6E94CC726736C5C00A1A2C2 /* OnSubmit.swift in Sources */,
 				A6E94CB8267362C300A1A2C2 /* ListBadges.swift in Sources */,
 				A6E94C9326734B7D00A1A2C2 /* ContentView.swift in Sources */,
+				A6CFAB6D267B2DC900DCEA11 /* PreferenceKeys.swift in Sources */,
 				A6E94CB226735F9B00A1A2C2 /* FocusStateExample.swift in Sources */,
 				A6E94CC12673697500A1A2C2 /* Alert.swift in Sources */,
 				A6E94CC426736AED00A1A2C2 /* ConfirmationDialog.swift in Sources */,
