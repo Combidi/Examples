@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A6A34A3026A6AA3D007280C8 /* AsyncAwait.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A34A2F26A6AA3D007280C8 /* AsyncAwait.swift */; };
+		A6A34A3126A6AA3D007280C8 /* AsyncAwait.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A34A2F26A6AA3D007280C8 /* AsyncAwait.swift */; };
 		A6CFAB6C267B2DC900DCEA11 /* PreferenceKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CFAB6B267B2DC900DCEA11 /* PreferenceKeys.swift */; };
 		A6CFAB6D267B2DC900DCEA11 /* PreferenceKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CFAB6B267B2DC900DCEA11 /* PreferenceKeys.swift */; };
 		A6DB1B41267B3B8200F07D6E /* AlignmentGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DB1B40267B3B8200F07D6E /* AlignmentGuide.swift */; };
@@ -52,6 +54,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A6A34A2F26A6AA3D007280C8 /* AsyncAwait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwait.swift; sourceTree = "<group>"; };
 		A6CFAB6B267B2DC900DCEA11 /* PreferenceKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeys.swift; sourceTree = "<group>"; };
 		A6DB1B40267B3B8200F07D6E /* AlignmentGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentGuide.swift; sourceTree = "<group>"; };
 		A6E94C8226734B7900A1A2C2 /* ExamplesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamplesApp.swift; sourceTree = "<group>"; };
@@ -95,20 +98,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A6E94C7C26734B7900A1A2C2 = {
+		A6A34A2E26A6AA0B007280C8 /* SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				A6E94C8126734B7900A1A2C2 /* Shared */,
-				A6E94C8A26734B7D00A1A2C2 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		A6E94C8126734B7900A1A2C2 /* Shared */ = {
-			isa = PBXGroup;
-			children = (
-				A6E94C8426734B7D00A1A2C2 /* Assets.xcassets */,
 				A6E94C8326734B7900A1A2C2 /* ContentView.swift */,
-				A6E94C8226734B7900A1A2C2 /* ExamplesApp.swift */,
 				A6E94C9E26734BBD00A1A2C2 /* PullToRefreshWithAsyncAwait.swift */,
 				A6E94CA1267352C100A1A2C2 /* Searchable.swift */,
 				A6E94CA72673551000A1A2C2 /* SwipeActions.swift */,
@@ -127,6 +120,25 @@
 				A6E94CCE2673705600A1A2C2 /* ListFeatures.swift */,
 				A6CFAB6B267B2DC900DCEA11 /* PreferenceKeys.swift */,
 				A6DB1B40267B3B8200F07D6E /* AlignmentGuide.swift */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		A6E94C7C26734B7900A1A2C2 = {
+			isa = PBXGroup;
+			children = (
+				A6E94C8126734B7900A1A2C2 /* Shared */,
+				A6E94C8A26734B7D00A1A2C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6E94C8126734B7900A1A2C2 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				A6E94C8226734B7900A1A2C2 /* ExamplesApp.swift */,
+				A6A34A2F26A6AA3D007280C8 /* AsyncAwait.swift */,
+				A6A34A2E26A6AA0B007280C8 /* SwiftUI */,
+				A6E94C8426734B7D00A1A2C2 /* Assets.xcassets */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -244,6 +256,7 @@
 				A6E94CB7267362C300A1A2C2 /* ListBadges.swift in Sources */,
 				A6E94C9226734B7D00A1A2C2 /* ContentView.swift in Sources */,
 				A6CFAB6C267B2DC900DCEA11 /* PreferenceKeys.swift in Sources */,
+				A6A34A3026A6AA3D007280C8 /* AsyncAwait.swift in Sources */,
 				A6E94CB126735F9B00A1A2C2 /* FocusStateExample.swift in Sources */,
 				A6E94CC02673697500A1A2C2 /* Alert.swift in Sources */,
 				A6E94CC326736AED00A1A2C2 /* ConfirmationDialog.swift in Sources */,
@@ -271,6 +284,7 @@
 				A6E94CB8267362C300A1A2C2 /* ListBadges.swift in Sources */,
 				A6E94C9326734B7D00A1A2C2 /* ContentView.swift in Sources */,
 				A6CFAB6D267B2DC900DCEA11 /* PreferenceKeys.swift in Sources */,
+				A6A34A3126A6AA3D007280C8 /* AsyncAwait.swift in Sources */,
 				A6E94CB226735F9B00A1A2C2 /* FocusStateExample.swift in Sources */,
 				A6E94CC12673697500A1A2C2 /* Alert.swift in Sources */,
 				A6E94CC426736AED00A1A2C2 /* ConfirmationDialog.swift in Sources */,
